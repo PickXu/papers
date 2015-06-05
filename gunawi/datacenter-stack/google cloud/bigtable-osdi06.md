@@ -35,6 +35,7 @@
   * Locality groups: Aggregate column families if the content are accessed together frequently
   * Caching: i) Scan Cache; ii) Block Cache
   * Use bloom filter to fast check whether a SSTable contain data of a row/column pair
+  * Parallel log commit; Distributed log sorting by tablet ID to eliminate duplicate log reads; Two threads for each log
   * 
 
 ### Strenghs
